@@ -40,7 +40,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)&nbsp;
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)&nbsp;
 
-
+![snake gif](https://github.com/AnnaLara213/AnnaLara213/blob/output/github-contribution-grid-snake.gif)
 
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=6495ED&height=120&section=footer"/>
