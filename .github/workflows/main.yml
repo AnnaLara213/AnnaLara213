@@ -1,5 +1,3 @@
-# Exemplo atualizado para usar o fork do `actions/checkout`
-
 name: Generate Snake
 
 on:
@@ -12,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: AnnaLara213/checkout@v2  # Usando o fork
+      - uses: AnnaLara213/checkout@main  # Use o branch correto, normalmente "main" ou "master"
 
       - uses: AnnaLara213/snk@master
         id: snake-gif
