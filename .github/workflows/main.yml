@@ -1,5 +1,4 @@
-
-# Exemplo atualizado para usar actions do seu repositório
+# Exemplo atualizado para usar o fork do `actions/checkout`
 
 name: Generate Snake
 
@@ -13,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: AnnaLara213/checkout@v2  # Usando o fork
 
       - uses: AnnaLara213/snk@master
         id: snake-gif
@@ -37,4 +36,3 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
